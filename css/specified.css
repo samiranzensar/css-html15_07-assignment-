@@ -1,0 +1,24 @@
+
+#main aside{
+    border-right:4px double green;
+    height: 607px;
+    width:25%;
+    margin-left: 60px;
+    margin-right: 1px;
+    float: left;
+    margin-top: 2px;
+    background: linear-gradient(to bottom,rgb(197, 214, 227),rgb(79, 82, 84));
+    /* background: linear-gradient(to bottom, red,orange); */
+}
+#main article{
+    background:url("../image/img.jpg");
+    border-radius: 5px;
+    margin-top: 3px;
+    /* margin-right: 54px; */
+    height: 600px;
+    float:left;
+    width:65%;
+    text-align: justify;
+    column-count: 3;
+    
+}

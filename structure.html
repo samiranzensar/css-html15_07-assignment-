@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+    <head><!--title tag always present within head tag-->
+        <title>Insights of html5 tag</title>
+        <style>
+            table tr:nth-child(2n){
+                background-color: aqua;
+            }
+            table tr:first-of-type{
+                background-color:chartreuse;
+            }
+            table {
+                border:1px solid;
+                border-radius: 2px;
+            }
+            table tr, td,th{
+                border:1px solid
+            }
+            table tr:first-of-type th:last-of-type{
+                border-top-right-radius: 5px;   
+            }
+            table :last-of-type tr:last-of-type td:last-of-type{
+                border-bottom-right-radius: 5px;
+            }
+            table tr:last-of-type td:first-of-type{
+                border-bottom-left-radius: 5px;   
+            }
+            [type=text]:valid{
+                background-color: green;
+            }
+            [type=text]:invalid{
+                background-color:red;
+            }
+            table tr:hover{
+                background-color: rgb(148, 212, 212);
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <input type="name" required>
+        <table>
+            <tr>
+                <th id="rightup">EmpId</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>sam</td>
+                <td>kolkata</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>sami</td>
+                <td>calcutta</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>samir</td>
+                <td>garbeta</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>samira</td>
+                <td>amlagora</td>
+            </tr>
+            <tr >
+                <td id="leftbottom">105</td>
+                <td>samiran</td>
+                <td id="rightbottom">sector1</td>
+            </tr>
+        </table>
+    </body>
+</html>
